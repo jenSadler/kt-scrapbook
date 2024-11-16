@@ -1,0 +1,203 @@
+{
+    "albums":[
+        {
+        "title":"Camping",
+        "sections":[
+            {
+                "title":"Killbear",
+                "season":"Summer",
+                "year": "2011",
+                "memories":[
+                    {
+                        "memory":"I remember being so amazed and happy that we were able to get the canoe on your mom's little Echo."
+                        
+                    },
+                    {
+                        "memory":"We never really got the hang of canoeing, but it was fun anyway"
+                    }
+                ],
+                "images":[
+                    {
+                        "title":"Can you believe we fit the canoe on here?",
+                        "path":"img/Camping/2011-killbear/canoe-echo.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Setting out on the canoe adventure",
+                        "path":"img/Camping/2011-killbear/kt-canoe.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"We got some great weather for this",
+                        "path":"img/Camping/2011-killbear/canoe-scenery.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"I recognize that hat",
+                        "path":"img/Camping/2011-killbear/kt-hat.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"The canoe was called Discovery, and we did discover",
+                        "path":"img/Camping/2011-killbear/canoe-scenery-2.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"I've always liked climbing rocks",
+                        "path":"img/Camping/2011-killbear/jen-on-rocks.jpg",
+                        "type":"portrait"
+                    },
+                    {
+                        "title":"More me on rocks",
+                        "path":"img/Camping/2011-killbear/jen-on-rocks-2.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Even more me on rocks",
+                        "path":"img/Camping/2011-killbear/jen-on-rocks-3.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"It was a really beautiful place",
+                        "path":"img/Camping/2011-killbear/scenery.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Like something out of a group of 7 painting",
+                        "path":"img/Camping/2011-killbear/scenery-2.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"So we can find our way",
+                        "path":"img/Camping/2011-killbear/inukshuk.jpg",
+                        "type":"landscape"
+                    }
+                ]
+
+            },
+            {
+                "title":"Algonquin",
+                 "season":"Summer",
+                 "year": "2012",
+                 "memories":[
+                     {
+                         "memory":"I can't believe I don't have of our own any photos of Algonquin. I had to pull one from the internet"
+                     },
+                     {
+                         "memory":"Remember getting turned around and having to pull the canoe over the beaver dam?"
+                     },
+                     {
+                        "memory":"I remember going swimming in the lake, but it was August and the water was so cold!"
+                    }
+                ],
+                "images":[
+                    {
+                        "title":"Canoe Lake Permit Office",
+                        "path":"img/Camping/2012-algonquin/canoe-lake-permit-office.jpg",
+                        "type":"landscape"
+                    }
+                ]
+            },
+            {
+               "title":"Sauble Falls",
+                "season":"Spring",
+                "year": "2014",
+                "memories":[
+                    {
+                        "memory":"This was the first time we'd been camping on the May 24 weekend, and it was absolutely FREEZING. We had to go into wireton a bunch of times to get jackets and blankets"
+                    },
+                    {
+                        "memory":"Wireton was very groundhog obsessed"
+                    }
+                ],
+                "images":[
+                    {
+                        "title":"The falls were a little underwhelming",
+                        "path":"img/Camping/2014-sauble-falls/falls.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"The origin of the Lumberjacket!",
+                        "path":"img/Camping/2014-sauble-falls/jen-lumberjacket.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Would ya look at that!",
+                        "path":"img/Camping/2014-sauble-falls/kt-point.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Sauble falls in the spring",
+                        "path":"img/Camping/2014-sauble-falls/rapids.jpg",
+                        "type":"landscape"
+                    }
+                ]
+            },
+            {
+                "title":"Bruce Peninsula With Anna",
+                "season":"Summer",
+                "year": "2015",
+                "memories":[
+                    {
+                        "memory":"I remember being so impressed with Anna's friend's stove that only used sticks"
+                    },
+                    {
+                        "memory":"It was a whole different vibe to go with a bunch of people"
+                    },
+                    {
+                        "memory":"The grotto was so beautiful"
+                    }
+
+                ],
+                "images":[
+                    {
+                        "title":"Just being a goof",
+                        "path":"img/Camping/2015-bruce-with-anna/bruce-katy.gif",
+                        "type":"portrait"
+                    },
+                    {
+                        "title":"Remember seeing these chickens when we went to lionshead to visit Anna's friend there?",
+                        "path":"img/Camping/2015-bruce-with-anna/chickens.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Anna had so many friends!",
+                        "path":"img/Camping/2015-bruce-with-anna/anna-and-co.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Katy posing with some classic tech",
+                        "path":"img/Camping/2015-bruce-with-anna/katy-camera.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"More of Anna's friends",
+                        "path":"img/Camping/2015-bruce-with-anna/the-gang.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"Anna's sister and ...Andrew? Plus others",
+                        "path":"img/Camping/2015-bruce-with-anna/folks.jpg",
+                        "type":"landscape"
+                    },
+                    {
+                        "title":"The Grotto",
+                        "path":"img/Camping/2015-bruce-with-anna/grotto.jpg",
+                        "type":"portrait"
+                    },
+                    {
+                        "title":"Don't get stuck down there!",
+                        "path":"img/Camping/2015-bruce-with-anna/kt-grotto.jpg",
+                        "type":"portrait"
+                    },
+                    {
+                        "title":"Classic Bruce",
+                        "path":"img/Camping/2015-bruce-with-anna/scenery.jpg",
+                        "type":"portrait"
+                    }
+                ]
+            }
+        ]
+        }
+    ]
+}
