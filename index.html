@@ -9,9 +9,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="home" class="section">
-            <div class="title">
+        <div id="intro" class="section">
+            <div class="big-title">
                 <h1>Katy & Jen Adventures</h1>
+                <p>We have had so many adventures over the years. <br/>Here are all the ones I could find</p>
+                <p>↓</p>
+            </div>
+        </div>
+        <div id="home" class="section">
+            <div class="big-title">
+                <h2>Adventure Index</h2>
             </div>
             <div class="index-tile">
                 <a href="#chillin">
@@ -50,8 +57,7 @@
                     <p>Toboggan</p>
                 </a>
             </div>
-            <img src="img/cat-gifs/cat-1.webp"/>
-
+           
         </div>
         <div id="chillin" class="section">
             <div class="title">
@@ -86,8 +92,8 @@
             
         </div>
         <div id="travel" class="section">
-            <div class="title">
-                <h2>All Travel</h2>
+            <div class="big-title">
+                <h2>Travel</h2>
             </div>
             <div class="index-tile">
                 <a href="#new-brunswick">
@@ -129,7 +135,7 @@
             </div>
             <div class="index-tile">
                 <a href="#ren-faire">
-                    <img src="img/travel/2014-ren-faire/ren-faire-1.jpg"/>
+                    <img src="img/travel/2014-ren-faire/ren-faire-2.jpg"/>
                     <p>Ren Faire</p>
                 </a>
             </div>
@@ -142,7 +148,7 @@
             <div class="index-tile">
                 <a href="#way-home">
                     <img src="img/travel/2015-way-home/way-home-1.jpg"/>
-                    <p>Way Home (2015)</p>
+                    <p>Way Home</p>
                 </a>
             </div>
             <div class="index-tile">
@@ -303,7 +309,7 @@
         </div>
         
         <div id="camping" class="section">
-            <div class="title">
+            <div class="big-title">
                 <h2>All Camping</h2>
             </div>
             <div class="index-tile">
@@ -327,7 +333,7 @@
             <div class="index-tile">
                 <a href="#bruce">
                     <img src="img/camping/2015-bruce-with-anna/bruce-5.jpg"/>
-                    <p>Bruce Peninsual</p>
+                    <p>Bruce Peninsula</p>
                 </a>
             </div>
             <div class="index-tile">
@@ -442,8 +448,15 @@
             <img src="img/cat-gifs/cat-19.webp"/>
             
         </div>
-        <div class="homeButton">
-            <a href="#home">🏡</a>
+        <div id="end" class="section">
+            <div class="big-title">
+                <h2>Thanks for being my bestie through all of our life's adventures</h2>
+            </div>
+        </div>
+        <div class="holdHomeButton">
+            <a href="#home" class="homeButton">
+                    🏡
+            </a>
         </div>
         <div class="holdButtons">
             <button id="scrollPrevButton">↑</button>
@@ -591,11 +604,20 @@
 </script>
 
         <style>
-
-            .homeButton{
+            html {
+                overflow: scroll;
+                scroll-snap-type: y proximity;
+            }
+            body{
+                position: relative;
+            }
+            .holdHomeButton{
                 position:fixed;
                 top:20px;
                 right:20px;
+            }
+
+            .homeButton{
                 border-radius: 50%;
                 width: 75px;
                 height: 75px;
@@ -605,6 +627,9 @@
                 align-items:center;
                 font-size:xx-large;
 
+            }
+            .homeButton:hover{
+                background-color:#92ff70;
             }
             .holdButtons{
                 position: fixed;
@@ -617,7 +642,7 @@
             #scrollNextButton {
             
             
-            background-color: #007bff;
+            background-color: #227396;
             color: white;
             border: none;
             border-radius: 50%;
@@ -629,10 +654,10 @@
             margin:10px 0;
             }
             #scrollNextButton:hover {
-            background-color: #0056b3;
+            background-color: #174d64;
             }
             #scrollPrevButton {
-            background-color: #28a745;
+            background-color: #540d6e;
             color: white;
             border: none;
             border-radius: 50%;
@@ -644,29 +669,28 @@
             margin:10px 0;
             }
             #scrollPrevButton:hover {
-            background-color: #1e7e34;
+            background-color: #380949;
             }
             .section{
                 width:calc(100%);
-                height:100vh;
+                min-height:calc(100vh);
+                overflow:visible;
                 max-width:1300px;
-                flex-shrink:1;
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(calc(100vw /  5), 1fr)); /* Responsive columns */
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); /* Responsive columns */
                 box-sizing: border-box; /* Include padding in calculations */
-                margin:auto;
+                padding:5%;
                 gap:20px 10px;
                 justify-content: space-evenly;
                 justify-items: center;
                 align-content: space-evenly;
                 align-items: center;
-                overflow:hidden;
-                padding:50px;
-                
+                scroll-snap-align: start;
+
             }
 
             .section#new-orleans, .section#london,.section#travel,.section#paris,.section#way-home,.section#kingston,.section#killbear,.section#bruce, .section#elora,.section#holidays,.section#cats, .section#amsterdam{
-                grid-template-columns: repeat(auto-fit, minmax(calc(100vw /  7), 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
             }
            
     
@@ -684,58 +708,84 @@
                 display: block; /* Eliminate whitespace around images */
                 margin:0;
                 padding:0;
-                background:white;
+                background-color: rgb(0,0,0,0.6);
                 padding:5px;
                 border-radius:3px;
                 aspect-ratio: 1 / 1;
               
             }
 
-            .section .title{
-                background-color:#92ff70;
-                width:100%;
-                height:100%;
+            .section .title, .section .big-title{
+                width:calc(100% - 20px);
+                height:calc(100% - 20px);
                 margin:0;
-                padding:0;
+                padding:10px;
                 display:flex;
                 justify-content:center;
                 align-items:center;
                 flex-direction:column;
                 border-radius:10px;
+                background:rgba(0,0,0,0.4);
+            }
+
+            .section .title{
+                border:2px white dashed;
+            }
+
+            .section .title p {
+                text-align: center;
+                color:white;
             }
             .section h2{
-                
+                word-break:break-word;
                  display: block; /* Eliminate whitespace around images */
                 margin:0;
                 padding:0;
                 font-family: "Chewy", serif;
                 font-size:x-large;
                 text-align:center;
-                
+                color:white;
+            }
+
+            .big-title{
+                grid-column: 1/-1;
+            }
+            .big-title p{
+                color:white;
+                font-family: "Chewy", serif;
+                font-size: x-large;
+                text-align: center;
+                word-break: break-word;
+                color: white;
             }
             h1{
                 font-family: "Chewy", serif;
-                font-size:xx-large;
-                text-align:center;
+                font-size: xxx-large;
+                text-align: center;
+                word-break: break-word;
+                color: white;
+                margin-bottom: 0;
+
             }
         
             .section .index-tile{
                 width:100%;
                 height:calc(100% - 12px);
                 padding:10px;
-                background-color:white;
+                background-color: rgb(0,0,0,0.5);
+                border: 1px dashed white;
                 border-radius:5px;
                 display:block;
                 margin:0;
                 box-sizing:border-box;
-                border:1px solid #333;
+               
             }
             .index-tile a{
                 display:flex;
                 flex-direction:column;
                 text-align:center;
                 
-                color:#1f1ab7;
+                color:white;
                 text-decoration:none;
                 font-family: "Chewy", serif;
                 font-size:x-large;
@@ -758,16 +808,16 @@
                 display: block; /* Eliminate whitespace around images */
                 margin:0;
                 padding:0;
-                background:white;
                 padding:0;
                 border-radius:0;
             }
 
             .index-tile a p{
                 flex:1 1 0;
-                margin:0;
+                margin:5px 0;
                 padding:0;
                 box-sizing:border-box;
+                font-size: medium;
             }
 
             /*Lightbox*/
@@ -874,6 +924,11 @@
         color: red;
     }
 
+    @media only screen and (max-width: 600px) {
+        .index-tile a p{
+            word-break: break-all;
+        }
+    }
 
 
 
